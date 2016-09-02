@@ -15,7 +15,7 @@ window.addEventListener("load", function() {
 		resultado.innerHTML = "<p>" + horaImprimible + "</p>";
 
 		var resultadoArgentina = document.getElementById("resultadoArgentina");
-		resultadoArgentina.innerHTML = (hora+14) + " : " + minuto + " : " + segundo;
+		resultadoArgentina.innerHTML = (hora+2) + " : " + minuto + " : " + segundo;
 
 	   	setTimeout(mueveReloj,1000) ;
 	} 
